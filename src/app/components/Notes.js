@@ -16,7 +16,7 @@ const Notes = () => {
         </div>
 
         {/* Notes Grid Section */}
-        <div className='w-full grid grid-cols-1 md:grid-cols-3 gap-8 '>
+        <div className='w-full grid grid-cols-1 md:grid-cols-3 gap-8'>
           {/* Note 1 */}
           <div className='flex justify-center transition-all hover:scale-105'>
             <img
@@ -50,3 +50,4 @@ const Notes = () => {
 };
 
 export default Notes;
+
