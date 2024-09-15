@@ -27,7 +27,7 @@ const Notes = () => {
           </div>
           
           {/* Note 2 */}
-          <div className='flex justify-center transition-all hover:scale-105'>
+          <div className='flex justify-center transition-all hover:scale-105 hidden md:flex'>
             <img
               src='/images/array&linkedlist.png'
               alt='Note 2'
@@ -36,7 +36,7 @@ const Notes = () => {
           </div>
           
           {/* Note 3 */}
-          <div className='flex justify-center transition-all hover:scale-105'>
+          <div className='flex justify-center transition-all hover:scale-105 hidden md:flex'>
             <img
               src='/images/stack&queue.png'
               alt='Note 3'
@@ -50,4 +50,3 @@ const Notes = () => {
 };
 
 export default Notes;
-
